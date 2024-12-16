@@ -11,9 +11,10 @@ export default function HomePage() {
     return (
         <>
             <Head>
-                <title>Astrolus premium</title>
-                <meta name="description" content="Template built with tailwindcss using Tailus blocks v2" />
-                <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+                <title>JUMPQ</title>
+                <meta name="description" content="Helping Sales Team
+/ Agents Excel at Scale" />
+                <link rel="icon" type="image/svg+xml" href="images/logo.png" />
             </Head>
             <HeaderSection />
             <main className="mb-40">
