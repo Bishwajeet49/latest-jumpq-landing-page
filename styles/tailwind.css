@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: DM Sans, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  /* refer `Button.tsx` */
+  .max {
+    @apply relative flex h-11 w-max items-center justify-center px-5 before:absolute before:inset-0 before:rounded-full before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95;
+  }
+
+  .full {
+    @apply relative flex h-11 w-full items-center justify-center px-5 before:absolute before:inset-0 before:rounded-full before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95;
+  }
+
+  .span {
+    @apply relative w-max text-base font-semibold;
+  }
+}
