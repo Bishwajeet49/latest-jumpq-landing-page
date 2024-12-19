@@ -11,23 +11,23 @@ export default function HeaderSection() {
   const links: { to: string, label: string}[] = [
     {
       to: "#features",
-      label: "Features",
+      label: "Home",
     },
     {
       to: "#solution",
-      label: "Solution",
+      label: "Product",
     },
     {
       to: "#reviews",
-      label: "Reviews",
+      label: "Why JumpQ",
     },
     {
-      to: "#pricing",
-      label: "Pricing",
+      to: "#company",
+      label: "Company",
     },
     {
       to: "/login",
-      label: "Login",
+      label: "Contact Us",
     },
   ];
 

@@ -6,6 +6,7 @@ import Solution from "../components/Solution";
 import Reviews from "../components/Reviews";
 import Princing from "../components/Princing";
 import Footer from "../components/FooterSection";
+import Team from "../components/Team";
 
 export default function HomePage() {
     return (
@@ -22,6 +23,7 @@ export default function HomePage() {
                 <Features />
                 <Solution />
                 <Reviews />
+                <Team />
                 <Princing />
 
                 {/* <div style={{ display: 'flex', border: '1px solid #8B0000' }}>

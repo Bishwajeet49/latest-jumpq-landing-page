@@ -10,7 +10,7 @@ export default function Reviews() {
                     <h2 className="text-center text-3xl font-bold text-gray-900 dark:text-white md:text-4xl lg:text-5xl">Trusted by thousands</h2>
                     <p className="mt-4 text-center text-gray-600 dark:text-gray-300">Repellendus atque illum odio! Fugiat at expedita deserunt dolorum molestias.</p>
                 </div>
-                <div className="mt-12 md:mt-20 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="mt-12 md:mt-20 grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
                     <div className="space-y-6">
                         <Card>
                             <div className="flex gap-4">
@@ -20,9 +20,10 @@ export default function Reviews() {
                                     <p className="text-sm text-gray-500 dark:text-gray-300">Mobile dev</p>
                                 </div>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid quo eum quae quos illo earum ipsa doloribus nostrum minus libero aspernatur laborum cum, a suscipit, ratione ea totam ullam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.</p>
+                            <p>“They are constantly looking at the ways to evolve their platform to make it easier for agents to convert leads into sales” 
+                            </p>
                         </Card>
-                        <Card>
+                        {/* <Card>
                             <div className="flex gap-4">
                                 <Image className="h-12 w-12 rounded-full" src="/images/avatars/avatar-1.webp" alt="user avatar" width="400" height="400" loading="lazy" />
                                 <div>
@@ -31,7 +32,7 @@ export default function Reviews() {
                                 </div>
                             </div>
                             <p>Illum aliquid quo eum quae quos illo laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.</p>
-                        </Card>
+                        </Card> */}
                     </div>
                     <div className="space-y-6">
                         <Card>
@@ -42,9 +43,9 @@ export default function Reviews() {
                                     <p className="text-sm text-gray-500 dark:text-gray-300">Mobile dev</p>
                                 </div>
                             </div>
-                            <p>Nostrum minus libero sit amet consectetur, adipisicing elit ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.</p>
+                            <p>“They are reviving the leads in our database that would have never been touched otherwise”</p>
                         </Card>
-                        <Card>
+                        {/* <Card>
                             <div className="flex gap-4">
                                 <Image className="h-12 w-12 rounded-full" src="/images/avatars/avatar-3.webp" alt="user avatar" width="400" height="400" loading="lazy" />
                                 <div>
@@ -53,8 +54,8 @@ export default function Reviews() {
                                 </div>
                             </div>
                             <p>Nostrum minus libero sit amet consectetur, adipisicing elit ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.</p>
-                        </Card>
-                        <Card>
+                        </Card> */}
+                        {/* <Card>
                             <div className="flex gap-4">
                                 <Image className="h-12 w-12 rounded-full" src="/images/avatars/avatar-2.webp" alt="user avatar" width="400" height="400" loading="lazy" />
                                 <div>
@@ -63,9 +64,9 @@ export default function Reviews() {
                                 </div>
                             </div>
                             <p>Illum aliquid quo eum quae quos illo laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.</p>
-                        </Card>
+                        </Card> */}
                     </div>
-                    <div className="space-y-6 sm:hidden lg:block">
+                    {/* <div className="space-y-6 sm:hidden lg:block">
                         <Card>
                             <div className="flex gap-4">
                                 <Image className="h-12 w-12 rounded-full" src="/images/avatars/avatar.webp" alt="user avatar" width="400" height="400" loading="lazy" />
@@ -96,7 +97,7 @@ export default function Reviews() {
                             </div>
                             <p>Illum aliquid quo deleniti aperiam ab veniam Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.</p>
                         </Card>
-                    </div>
+                    </div> */}
                 </div>
             </Container>
         </div>
