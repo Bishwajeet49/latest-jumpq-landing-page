@@ -1366,7 +1366,7 @@ body {
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(224 153 0  / var(--tw-bg-opacity));
+  background-color: rgb(255 83 28  / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
@@ -1420,7 +1420,7 @@ body {
 
 .from-primary {
   --tw-gradient-from: #9333EA;
-  --tw-gradient-to: rgb(224 153 0  / 0);
+  --tw-gradient-to: rgb(255 83 28  / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -1722,7 +1722,7 @@ body {
 
 .text-primary {
   --tw-text-opacity: 1;
-  color: rgb(224 153 0  / var(--tw-text-opacity));
+  color: rgb(255 83 28  / var(--tw-text-opacity));
 }
 
 .text-gray-400 {
@@ -1870,12 +1870,12 @@ body {
 .before\:bg-primary::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(224 153 0 / var(--tw-bg-opacity));
+  background-color: rgb(255 83 28 / var(--tw-bg-opacity));
 }
 
 .before\:bg-primary\/10::before {
   content: var(--tw-content);
-  background-color: rgb(224 153 0 / 0.1);
+  background-color: rgb(255 83 28 / 0.1);
 }
 
 .before\:transition::before {
@@ -1915,7 +1915,7 @@ body {
 
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
-  color: rgb(224 153 0  / var(--tw-text-opacity));
+  color: rgb(255 83 28  / var(--tw-text-opacity));
 }
 
 .hover\:text-gray-600:hover {
@@ -2730,9 +2730,9 @@ body {
 }
 
 .text-orange {
-  color: #e09900;
+  color: rgb(255 83 28  / var(--tw-bg-opacity));;
 }
 
 .text-team-orange {
-  color: #f7c966;
+  color: rgba(250, 114, 69, 0.863);
 }
