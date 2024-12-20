@@ -3,6 +3,8 @@ import Image from "next/image.js";
 import Company from "./Company";
 import Imagine from "./Imagine";
 
+// import Company from "./Company";
+
 export default function SolutionContent() {
     return (
         <>
@@ -22,10 +24,13 @@ export default function SolutionContent() {
                 JumpQ is a Generative AI company committed to revolutionizing sales strategies, workflows, and technologies to match modern buyer preferences. <br />
                     <br /> Vitae error, quaerat officia delectus voluptatibus explicabo quo pariatur impedit, at reprehenderit aliquam a ipsum quas voluptatem. Quo pariatur asperiores eum amet.
                 </p>
-                <Button Element="a" label="Get started" emphasis="primary" to="/register" ui="max"/>
+        <Company />
+        <div className="mt-8" ></div>
+
+                <Button Element="a" label="Get started" emphasis="primary" to="/register" ui="max" />
             </div>
         </div>
-        <Company />
+        {/* <Company /> */}
         <Imagine />
         </>
     )

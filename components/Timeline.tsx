@@ -4,7 +4,7 @@ import SafeIcon from "./Safe";
 
 const Timeline = () => {
     return (
-        <div className="relative max-w-5xl mx-auto pt-10">
+        <div className="relative max-w-5xl mx-auto pt-10" >
             {/* Vertical Line */}
             <div className="absolute left-5 top-0 h-full border-l-2 divide-gray-100"></div>
 
@@ -75,6 +75,7 @@ const Timeline = () => {
                     </div>
                 </div>
             </div>
+
         </div>
     );
 };

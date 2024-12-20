@@ -6,21 +6,21 @@ import Timeline from "./Timeline"
 
 export default function Solution() {
     return (
-        <div className="pt-32 mb-12 md:pt-44" id="solution">
+        <div className="pt-32 mb-12 md:pt-44" >
             <Container>
                 <div className="mx-auto md:w-3/6">
                     <h2 className="text-center text-3xl font-bold text-gray-900 dark:text-white md:text-4xl lg:text-5xl">Less Complexity, More Results.</h2>
                 </div>
                 <div className="flex-row-reverse mt-16 md:mt-20  justify-between  text-gray-600 md:flex md:gap-6 lg:gap-12 lg:space-y-0">
-                    <div className="relative ml-auto h-full md:w-1/2  border-red-800">
-                        <h2 className="text-3xl font-bold text-gray-900 dark:text-white md:text-4xl lg:text-5xl">After JumpQ</h2>
+                    <div className="relative ml-auto h-full md:w-1/2 ">
+                        <h2 className="text-xl font-bold text-gray-900 dark:text-white md:text-2xl lg:text-4xl text-primary" style={{marginLeft:"20px"}}  >After JumpQ</h2>
                         <Timeline />
                         {/* <Image className="dark:hidden" src="/images/milestone.webp" alt="app milestone" width="1174" height="1134" />
                         <Image className="hidden dark:block" src="/images/milestone-dark.webp" alt="app milestone" width="1174" height="1134" /> */}
                     </div>
 
                     <div className="md:w-1/2 lg:w-[47%]">
-                        <h2 className="text-3xl font-bold text-gray-900 dark:text-white md:text-4xl lg:text-5xl">Before JumpQ</h2>
+                        <h2 className="text-xl font-bold text-gray-900 dark:text-white md:text-4xl lg:text-4xl">Before JumpQ</h2>
                         <p className="my-12 text-gray-600 dark:text-gray-300">
                         </p>
                         <div className="space-y-4 divide-y divide-gray-100 dark:divide-gray-800">

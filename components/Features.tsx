@@ -7,7 +7,7 @@ export default function Features() {
         <div className="relative pt-32 md:pt-44" id="features">
             <Container>
                 <div className="mx-auto md:w-3/5">
-                    <h2 className="text-center text-3xl font-bold text-gray-900 dark:text-white md:text-4xl lg:text-5xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                    <h2 id="solution" className="text-center text-3xl font-bold text-gray-900 dark:text-white md:text-4xl lg:text-5xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
                     {/* <p className="mt-4 text-center text-gray-600 dark:text-gray-300"></p> */}
                     {/* <h3 className="mt-4 text-center text-gray-600 dark:text-gray-300">Less Complexity, More Results.</h3> */}
 
@@ -31,7 +31,8 @@ export default function Features() {
                             </div>
                         </div>
 
-                        <div   className="relative grid overflow-hidden rounded-[1.25rem] bg-gray-100 p-1 dark:bg-gray-800/50 w-large">
+                        <div   className="relative grid overflow-hidden rounded-[1.25rem] bg-gray-100 p-1 dark:bg-gray-800/50 w-large " >
+                        
                             <Feature title="Intelligent Buyer Targeting and re-targeting" description="Track and engage with buyers inon real-time , Enjoy next-level customer profiling, combined with buyer preferences and insights .">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="m-auto h-6 w-6 text-gray-700 dark:text-white">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"></path>

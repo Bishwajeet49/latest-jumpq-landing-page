@@ -4,7 +4,7 @@ import Image from "next/image.js";
 export default function Company() {
     return (
         <div className="">
-            <div className="relative mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
+            <div className="relative mt-12 grid gap-6 md:grid-cols-1 lg:grid-cols-2">
                 <Card>
                     {/* <Image className="w-10" src="/images/security.webp" alt="safety icon illustration" height="512" width="512" /> */}
                     <div>

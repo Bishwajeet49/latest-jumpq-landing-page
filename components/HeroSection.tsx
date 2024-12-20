@@ -18,7 +18,7 @@ export default function HeroSection() {
               <h1 className="text-5xl font-black dark:text-white md:text-5xl xl:text-5xl">
               Helping Sales Team <br></br>
              
-              / Agents <span></span> <span className="text-primary">Excel at Scale </span> 
+              & Agents <span></span> <span className="text-primary">Excel at Scale </span> 
               </h1>
               <div className="">
                 <p className="mt-8 text-lg text-gray-700 dark:text-gray-100">
@@ -28,17 +28,17 @@ export default function HeroSection() {
                   <Button
                     Element="a"
                     emphasis="primary"
-                    label="Get started"
-                    to="/register"
+                    label="Learn More"
+                    to="#solution"
                     ui="max"
                   />
-                  <Button
+                  {/* <Button
                     Element="a"
                     emphasis="secondary"
                     label="Learn more"
                     to="#solution"
                     ui="max"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
@@ -64,7 +64,7 @@ export default function HeroSection() {
             </div>
           </div>
 
-          <div className="mt-8 text-center md:mt-32 lg:mt-20 xl:mt-16">
+          {/* <div className="mt-8 text-center md:mt-32 lg:mt-20 xl:mt-16">
             <span className="text-sm font-semibold tracking-wider text-gray-800 dark:text-white">
               TRUSTED BY YOUR FAVORED TOP TECHS COMPANIES
             </span>
@@ -110,7 +110,7 @@ export default function HeroSection() {
                 height="100"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </Container>
     </div>

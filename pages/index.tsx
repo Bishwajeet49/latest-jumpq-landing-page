@@ -22,7 +22,7 @@ export default function HomePage() {
                 <HeroSection/>
                 <Features />
                 <Solution />
-                <Reviews />
+                {/* <Reviews /> */}
                 <Team />
                 <Princing />
 
