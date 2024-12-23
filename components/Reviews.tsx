@@ -4,10 +4,10 @@ import Image from "next/image.js";
 
 export default function Reviews() {
     return (
-        <div className="pt-32 md:pt-20 text-gray-600 dark:text-gray-300" id="reviews">
+        <div className="my-20 md:my-32 text-gray-600 dark:text-gray-300" id="reviews">
             <Container>
                 <div className="mx-auto md:w-3/5">
-                    <h2 className="text-center text-3xl font-bold text-gray-900 dark:text-white md:text-4xl lg:text-5xl">Trusted by thousands</h2>
+                    {/* <h2 className="text-center text-3xl font-bold text-gray-900 dark:text-white md:text-4xl lg:text-5xl">Trusted by thousands</h2> */}
                     <p className="mt-4 text-center text-gray-600 dark:text-gray-300">Repellendus atque illum odio! Fugiat at expedita deserunt dolorum molestias.</p>
                 </div>
                 <div className="mt-12 md:mt-20 grid gap-6 sm:grid-cols-2 lg:grid-cols-2">

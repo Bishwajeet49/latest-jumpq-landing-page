@@ -24,7 +24,7 @@ export default function HomePage() {
                 <Solution />
                 {/* <Reviews /> */}
                 <Team />
-                <Princing />
+                {/* <Princing /> */}
 
                 {/* <div style={{ display: 'flex', border: '1px solid #8B0000' }}>
                     <div style={{ width: '50%', border: '1px solid black' }}>kdkd</div>

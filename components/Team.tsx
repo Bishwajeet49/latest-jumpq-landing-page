@@ -92,9 +92,9 @@ export default function Team() {
                                                         <a href='#'>
                                                             <SiX />
                                                         </a>
-                                                        <a href='#'>
+                                                        {/* <a href='#'>
                                                             <SiFacebook />
-                                                        </a>
+                                                        </a> */}
                                                         <a href='#'>
                                                             <SiLinkedin />
                                                         </a>

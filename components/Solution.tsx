@@ -3,6 +3,7 @@ import Products from "./Products"
 import SolutionContent from "./SolutionContent"
 import Image from "next/image.js"
 import Timeline from "./Timeline"
+import Reviews from "./Reviews"
 
 export default function Solution() {
     return (
@@ -95,6 +96,7 @@ export default function Solution() {
                     </div>
                 </div>
                 <Products />
+                <Reviews />
                 <SolutionContent />
             </Container>
         </div>

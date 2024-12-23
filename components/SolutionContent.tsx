@@ -27,7 +27,7 @@ export default function SolutionContent() {
         <Company />
         <div className="mt-8" ></div>
 
-                <Button Element="a" label="Get started" emphasis="primary" to="/register" ui="max" />
+                {/* <Button Element="a" label="Get started" emphasis="primary" to="/register" ui="max" /> */}
             </div>
         </div>
         {/* <Company /> */}

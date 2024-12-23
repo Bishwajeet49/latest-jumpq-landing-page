@@ -34,11 +34,11 @@ export default function Imagine() {
                 </div>
             </div>
             <div className="mt-20">
-                <h3 className="text-2xl font-bold text-center text-gray-900 dark:text-white md:text-3xl lg:text-4xl">Our Commitment</h3>
+                {/* <h3 className="text-2xl font-bold text-center text-gray-900 dark:text-white md:text-3xl lg:text-4xl">Our Commitment</h3> */}
                 <p className='my-6 text-xl md:w-2/3 mx-auto text-center font-medium text-gray-600 dark:text-gray-300'>
-                    We don't sell tools. We deliver outcomes. We want to be pioneers in building India's New Era of Sales.
+                    We don't sell tools. We deliver outcomes. We want to be pioneers in building India's New Era of Sales. <span className="text-orange">It's still day one.</span>
                 </p>
-                <h3 className="text-2xl font-bold text-center text-orange md:text-3xl lg:text-4xl">It's still day one.</h3>
+                {/* <h3 className="text-2xl font-bold text-center text-orange md:text-3xl lg:text-4xl">It's still day one.</h3> */}
             </div>
         </>
     )
