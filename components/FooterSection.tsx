@@ -71,11 +71,19 @@ export default function Footer() {
                     </div>
                     <div className="flex flex-col gap-05 items-center text-center">
                         <span className="font-medium">📞 Phone</span>
-                        <span className="text-wrap">+1 234 567 890</span>
+                        <p>
+                            <a href="tel:+1234567890" className="text-blue-500 underline hover:underline">
+                                +1 234 567 890
+                            </a>
+                        </p>
                     </div>
                     <div className="flex flex-col gap-05 items-center text-center">
                         <span className="font-medium">✉️ Email</span>
-                        <span className="text-wrap">contact@jumpq.com</span>
+                        <p>
+                            <a href="mailto:contact@jumpq.com" className="text-blue-500 underline hover:underline">
+                                contact@jumpq.com
+                            </a>
+                        </p>
                     </div>
                 </div>
 

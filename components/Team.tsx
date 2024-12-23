@@ -5,21 +5,21 @@ import { SiFacebook, SiLinkedin, SiX } from '@icons-pack/react-simple-icons';
 
 
 const teamData = [
-    {
-        name: 'Sandra Walton',
-        deg: 'CEO SomeCompany',
-        quote: "I'm loving these templates! Very nice features and layouts.",
-        image: 'https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2694&q=80',
-    },
+    // {
+    //     name: 'Sandra Walton',
+    //     deg: 'CEO SomeCompany',
+    //     quote: "I'm loving these templates! Very nice features and layouts.",
+    //     image: 'https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2694&q=80',
+    // },
     {
         name: 'Khushal',
-        deg: 'CoFounder & CTO JumpQ',
+        deg: 'CoFounder & CTO',
         quote: 'Extremely helpful in every single project we have released.',
         image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80',
     },
     {
         name: 'Neeraj',
-        deg: 'CoFounder & CTO JumpQ',
+        deg: 'CoFounder & CTO',
         quote: 'Extremely helpful in every single project we have released.',
         image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80',
     },

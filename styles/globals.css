@@ -1708,6 +1708,10 @@ body {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
+.text-blue-500	{
+  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
+}
+
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
@@ -1919,6 +1923,10 @@ body {
 .hover\:bg-gray-50:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration: underline;
 }
 
 .hover\:text-primary:hover {
