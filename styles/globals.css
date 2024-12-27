@@ -1463,7 +1463,7 @@ body {
 }
 
 .from-transparent {
-  --tw-gradient-from: transparent;
+  --tw-gradient-from: #fcfcfc;
   --tw-gradient-to: rgb(0 0 0 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
