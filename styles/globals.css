@@ -828,6 +828,14 @@ body {
   display: grid;
 }
 
+.grid-rows-1 {
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
 .hidden {
   display: none;
 }
@@ -957,6 +965,10 @@ body {
   width: 4rem;
 }
 
+.w-266px{
+  width: 266px;
+}
+
 .w-0 {
   width: 0px;
 }
@@ -1012,6 +1024,10 @@ body {
 
 .max-w-17 {
   max-width: 17rem; /* 288px */
+}
+
+.max-w-23 {
+  max-width: 23rem;
 }
 
 .max-w-full {
@@ -1102,6 +1118,10 @@ body {
   justify-content: flex-end;
 }
 
+.justify-start {
+  justify-content: start;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -1132,6 +1152,10 @@ body {
 
 .gap-10	{
   gap: 2.5rem;
+}
+
+.gap-2	{
+  gap: 0.5rem;
 }
 
 .gap-3 {
@@ -1498,6 +1522,10 @@ body {
   padding: 1.5rem;
 }
 
+.pl-6	{
+  padding-left: 1.5rem;
+}
+
 .p-12 {
   padding: 3rem;
 }
@@ -1570,6 +1598,10 @@ body {
 
 .pr-12 {
   padding-right: 3rem;
+}
+
+.pr-20 {
+  padding-right: 5rem;
 }
 
 .pr-8 {
@@ -1676,6 +1708,10 @@ body {
 
 .font-extrabold {
   font-weight: 200;
+}
+
+.leading-none	{
+  line-height: 1;
 }
 
 .leading-10 {
@@ -2246,6 +2282,8 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  
+
   .sm\:justify-between {
     justify-content: space-between;
   }
@@ -2390,6 +2428,11 @@ body {
     text-align: left;
   }
 
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -2412,6 +2455,10 @@ body {
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .md\:grid-cols-3	{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
@@ -2529,6 +2576,10 @@ body {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-4	{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -2599,6 +2650,11 @@ body {
 
   .lg\:text-left {
     text-align: left;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .lg\:text-4xl {
@@ -2759,4 +2815,15 @@ body {
 
 .gap-05 {
   gap: 0.125rem;
+}
+
+.text-textNormal {
+  color: #7c7c7c;
+}
+
+.text-f12w700 {
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: -.12px;
+  font-weight: 700;
 }

@@ -21,8 +21,7 @@ export default function SolutionContent() {
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white md:text-3xl text-orange lg:text-4xl">Elevating Human Potential</h3>
                 {/* my-6 text-xl md:w-2/3 mx-auto text-center font-medium text-gray-600 dark:text-gray-300 */}
                 <p className="my-6 text-xl text-gray-600 dark:text-gray-300">
-                JumpQ is a Generative AI company committed to revolutionizing sales strategies, workflows, and technologies to match modern buyer preferences. <br />
-                    <br /> Vitae error, quaerat officia delectus voluptatibus explicabo quo pariatur impedit, at reprehenderit aliquam a ipsum quas voluptatem. Quo pariatur asperiores eum amet.
+                JumpQ is a Generative AI company committed to revolutionizing sales strategies, workflows, and technologies to match modern buyer preferences.
                 </p>
         <Company />
         <div className="mt-8" ></div>

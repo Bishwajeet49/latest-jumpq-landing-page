@@ -9,8 +9,8 @@ export default function Solution() {
     return (
         <div className="pt-32 mb-12 md:pt-44" >
             <Container>
-                <div className="mx-auto md:w-3/6">
-                    <h2 className="text-center text-3xl font-bold text-gray-900 dark:text-white md:text-4xl lg:text-5xl">Less Complexity, More Results.</h2>
+                <div>
+                    <h2 className="text-3xl font-bold text-gray-900 dark:text-white md:text-4xl lg:text-5xl">Less Complexity, More Results.</h2>
                 </div>
                 <div className="flex-row-reverse mt-16 md:mt-20  justify-between  text-gray-600 md:flex md:gap-6 lg:gap-12 lg:space-y-0">
                     <div className="relative ml-auto h-full md:w-1/2 ">
