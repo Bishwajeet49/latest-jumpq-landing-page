@@ -13,13 +13,17 @@ const mainTeamData = [
     // },
     {
         name: 'Khushal',
-        deg: 'CoFounder & CTO',
+        deg: 'Co-founder & CEO',
+        linkedin: 'https://www.linkedin.com/in/khushal-kadakia-377a14116/',
+        twitter: 'https://www.linkedin.com/in/khushal-kadakia-377a14116/',
         quote: 'Extremely helpful in every single project we have released.',
         image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80',
     },
     {
         name: 'Neeraj',
-        deg: 'CoFounder & CTO',
+        deg: 'Co-founder & CTO',
+        linkedin: 'https://www.linkedin.com/in/neeraj-paliwal-19548199/',
+        twitter: 'https://www.linkedin.com/in/neeraj-paliwal-19548199/',
         quote: 'Extremely helpful in every single project we have released.',
         image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80',
     },
@@ -46,19 +50,25 @@ const teamData = [
     // },
     {
         name: 'Aniket',
-        deg: 'Product & Growth',
+        deg: 'Products',
+        linkedin: 'https://www.linkedin.com/in/aniket-chowdhury-2398081a/',
+        twitter: 'https://www.linkedin.com/in/aniket-chowdhury-2398081a/',
         quote: 'Extremely helpful in every single project we have released.',
         image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80',
     },
     {
         name: 'Pravin',
         deg: 'Partnerships',
+        linkedin: '	https://www.linkedin.com/in/pravin-mahurkar-979b285/',
+        twitter: '	https://www.linkedin.com/in/pravin-mahurkar-979b285/',
         quote: 'Extremely helpful in every single project we have released.',
         image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80',
     },
     {
         name: 'Pramod',
         deg: 'Customer Success',
+        linkedin: '	https://www.linkedin.com/in/pramodvshet/',
+        twitter: '	https://www.linkedin.com/in/pramodvshet/',
         quote: 'Extremely helpful in every single project we have released.',
         image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80',
     },
@@ -111,13 +121,13 @@ export default function Team() {
                                                             {data.deg}
                                                         </p>
                                                         <div className=' flex items-center justify-center gap-3'>
-                                                        <a href='#'>
+                                                        <a href={data.linkedin}>
                                                             <SiX size={16} />
                                                         </a>
                                                         {/* <a href='#'>
                                                             <SiFacebook />
                                                         </a> */}
-                                                        <a href='#'>
+                                                        <a href={data.twitter}>
                                                             <SiLinkedin size={16} />
                                                         </a>
                                                     </div>
@@ -164,13 +174,13 @@ export default function Team() {
                                                                 {data.deg}
                                                             </p>
                                                             <div className='flex items-center justify-center gap-3'>
-                                                                <a href='#'>
+                                                                <a href={data.linkedin}>
                                                                     <SiX size={16} />
                                                                 </a>
                                                                 {/* <a href='#'>
                                                                     <SiFacebook />
                                                                 </a> */}
-                                                                <a href='#'>
+                                                                <a href={data.twitter}>
                                                                     <SiLinkedin size={16} />
                                                                 </a>
                                                             </div>
