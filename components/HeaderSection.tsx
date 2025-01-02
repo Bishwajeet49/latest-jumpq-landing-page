@@ -26,7 +26,7 @@ export default function HeaderSection() {
       label: "Company",
     },
     {
-      to: "/login",
+      to: "#footer",
       label: "Contact Us",
     },
   ];

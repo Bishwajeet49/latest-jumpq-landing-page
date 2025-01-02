@@ -7,7 +7,7 @@ import Reviews from "./Reviews"
 
 export default function Solution() {
     return (
-        <div className="pt-32 mb-12 md:pt-44" >
+        <div className="my-20 md:my-32" >
             <Container>
                 <div>
                     <h2 className="text-3xl font-bold text-gray-900 dark:text-white md:text-4xl lg:text-5xl">Less Complexity, More Results.</h2>

@@ -18,7 +18,7 @@ export default function HomePage() {
                 <link rel="icon" type="image/svg+xml" href="images/logo.png" />
             </Head>
             <HeaderSection />
-            <main className="mb-40">
+            <main className="mb-20 md:mb-32">
                 <HeroSection/>
                 <Features />
                 <Solution />
