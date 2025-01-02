@@ -4,7 +4,7 @@ import Container from "./Container";
 import Image from "next/image.js";
 
 export default function HeroSection() {
-  const videoRef = useRef(null);
+  const videoRef = useRef<HTMLVideoElement | null>(null);
 
   useEffect(() => {
     if (videoRef.current) {
