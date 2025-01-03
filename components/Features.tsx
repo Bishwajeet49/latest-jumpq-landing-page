@@ -4,7 +4,7 @@ import Image from "next/image.js";
 
 export default function Features() {
     return (
-        <div className="relative pt-32 md:pt-44" id="features">
+        <div className="relative my-20 md:my-32" id="features">
             <Container>
                 <div>
                     <h2 id="solution" className="text-3xl font-bold text-gray-900 dark:text-white md:text-4xl lg:text-5xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
