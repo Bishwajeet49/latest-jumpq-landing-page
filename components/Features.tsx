@@ -7,7 +7,7 @@ export default function Features() {
         <div className="relative my-20 md:my-32" id="features">
             <Container>
                 <div>
-                    <h2 id="solution" className="text-3xl font-bold text-gray-900 dark:text-white md:text-4xl text-orange lg:text-4xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                    <h2 id="solution" className="text-2xl font-bold text-gray-900 dark:text-white md:text-4xl text-orange lg:text-4xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
                     {/* <p className="mt-4 text-center text-gray-600 dark:text-gray-300"></p> */}
                     {/* <h3 className="mt-4 text-center text-gray-600 dark:text-gray-300">Less Complexity, More Results.</h3> */}
 

@@ -23,7 +23,7 @@ export default function HeroSection() {
       
       <Container>
         <div className="relative ml-auto pt-40 xl:pt-36">
-          <div className="gap-12 md:flex md:items-center md:w-[100%]">
+          <div className="md:flex md:items-center md:w-[100%]">
             <div className="text-center sm:px-12 md:w-2/5 md:px-0 md:text-left">
               <h1 className="text-5xl font-black dark:text-white md:text-4xl xl:text-5xl">
                 Helping Sales Team <br />
