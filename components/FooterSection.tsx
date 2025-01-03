@@ -2,6 +2,12 @@ import Container from "./Container";
 import Image from "next/image";
 import Faqs from "./Faqs";
 // import logo from "../public/images/logo.png"
+
+
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
+import { ImLocation2 } from "react-icons/im";
+
 export default function Footer() {
     const links = [
         {
@@ -27,23 +33,36 @@ export default function Footer() {
             <Container>
                 <div className="flex gap-6 md:flex-row md:w-full lg:gap-12 flex-col">
                     <div className="pr-20 md:w-1/2">
-                        <a href="components#home" aria-label="logo" className="flex items-center space-x-2">
+                        <a
+                            href="/"
+                            aria-label="logo"
+                            className="flex items-center space-x-2"
+                            onClick={(e) => {
+                                e.preventDefault(); // Prevent the default link behavior
+                                window.scrollTo({
+                                    top: 0,
+                                    behavior: 'smooth', // Smooth scrolling
+                                });
+                            }}
+                        >
                             <div aria-hidden="true" className="flex flex-col space-y-0.5">
                                 <Image
                                     width={36}
                                     height={36}
                                     src="/images/logo.png"
-                                    alt="logo" />
+                                    alt="logo"
+                                />
                             </div>
                             <span className="text-2xl font-bold text-gray-900 dark:text-white">JumpQ</span>
                         </a>
+
 
                         {/* Contact Section */}
                         <div className="mt-8 flex flex-wrap flex-col justify-center gap-3 space-x-8 text-gray-600 dark:text-gray-400">
                             <div className="w-266px text-f12w700 uppercase leading-none tracking-tight text-textNormal">Contact us</div>
                             <div className="flex flex-col gap-2">
-                                <div className="flex flex-col gap-05">
-                                    <span className="font-medium">📞 Phone</span>
+                                <div className="flex flex-col">
+                                    <span className="font-medium flex items-center gap-3"><FaPhoneAlt /> Phone</span>
                                     <p className="pl-6">
                                         <a href="tel:+1234567890" className="text-blue-500 underline hover:underline">
                                             +1 234 567 890
@@ -51,7 +70,7 @@ export default function Footer() {
                                     </p>
                                 </div>
                                 <div className="flex flex-col gap-05">
-                                    <span className="font-medium">✉️ Email</span>
+                                    <span className="font-medium flex items-center gap-3"><IoMdMail /> Email</span>
                                     <p className="pl-6">
                                         <a href="mailto:contact@jumpq.com" className="text-blue-500 underline hover:underline">
                                             contact@jumpq.com
@@ -59,7 +78,7 @@ export default function Footer() {
                                     </p>
                                 </div>
                                 <div className="flex flex-col gap-05">
-                                    <span className="font-medium">📍 Address</span>
+                                    <span className="font-medium flex items-center gap-3"><ImLocation2 /> Address</span>
                                     <span className="text-wrap pl-6">123 Street Name, City, Country</span>
                                 </div>
                             </div>
