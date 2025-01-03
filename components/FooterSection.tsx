@@ -29,7 +29,7 @@ export default function Footer() {
     ];
 
     return (
-        <footer id="footer" className="bg-gradient-to-b from-transparent to-gray-100 mt-20 md:mt-32 pb-12 dark:to-gray-900">
+        <footer id="footer" className="bg-gradient-to-b from-transparent to-gray-500 mt-20 md:mt-32 py-12 dark:to-gray-900">
             <Container>
                 <div className="flex gap-6 md:flex-row md:w-full lg:gap-12 flex-col">
                     <div className="pr-20 md:w-1/2">

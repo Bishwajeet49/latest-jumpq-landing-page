@@ -76,7 +76,7 @@ const teamData = [
 
 export default function Team() {
     return (
-        <div className="pt-32 md:pt-20 text-gray-600 dark:text-gray-300" id="reviews">
+        <div className="pt-32 md:pt-20 lg:pt-0 text-gray-600 dark:text-gray-300" id="reviews">
             <Container>
                 <div
                     id='testimonials'
