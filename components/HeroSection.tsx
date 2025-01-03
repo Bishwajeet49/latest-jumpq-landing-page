@@ -13,7 +13,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <div className="relative overflow-hidden dark:bg-darker lg:overflow-auto" id="home">
+    <div className="w-full h-screen relative overflow-hidden dark:bg-darker lg:overflow-auto flex items-center" id="home">
       <div className="absolute inset-x-0 top-32 lg:hidden">
         <div aria-hidden="true" className="grid grid-cols-2 -space-x-52 opacity-50 dark:opacity-60 2xl:mx-auto 2xl:max-w-6xl">
           <div className="h-60 bg-gradient-to-br from-primary to-purple-400 blur-3xl dark:from-blue-700"></div>

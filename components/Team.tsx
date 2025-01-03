@@ -87,7 +87,7 @@ export default function Team() {
                                 <p className='my-5 text-base font-medium uppercase tracking-tight text-team-orange'>
                                     Our Team is Passionate About What We Do
                                 </p>
-                                <h2 className='text-center text-3xl font-bold text-gray-900 dark:text-white md:text-4xl lg:text-5xl'>
+                                <h2 className='text-center text-3xl font-bold text-gray-900 dark:text-white md:text-4xl text-orange lg:text-4xl'>
                                     Meet Our Experts
                                 </h2>
                                 <p className='my-6 text-xl font-medium text-gray-600 dark:text-gray-300'>
@@ -121,13 +121,13 @@ export default function Team() {
                                                                 {data.deg}
                                                             </p>
                                                             <div className=' flex items-center justify-center gap-3'>
-                                                                <a href={data.linkedin}>
+                                                                <a href={data.linkedin} target="_blank" rel="noopener noreferrer">
                                                                     <SiX size={16} />
                                                                 </a>
                                                                 {/* <a href='#'>
                                                             <SiFacebook />
                                                         </a> */}
-                                                                <a href={data.twitter}>
+                                                                <a href={data.twitter} target="_blank" rel="noopener noreferrer">
                                                                     <SiLinkedin size={16} />
                                                                 </a>
                                                             </div>
