@@ -13,7 +13,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <div className="w-full h-screen relative overflow-hidden dark:bg-darker lg:overflow-auto flex items-center" id="home">
+    <div className="w-full h-screen relative overflow-hidden dark:bg-darker lg:overflow-auto flex items-start pt-10" id="home">
       <div className="absolute inset-x-0 top-32 lg:hidden">
         <div aria-hidden="true" className="grid grid-cols-2 -space-x-52 opacity-50 dark:opacity-60 2xl:mx-auto 2xl:max-w-6xl">
           <div className="h-60 bg-gradient-to-br from-primary to-purple-400 blur-3xl dark:from-blue-700"></div>
@@ -22,7 +22,7 @@ export default function HeroSection() {
       </div>
       
       <Container>
-        <div className="relative ml-auto pt-40 xl:pt-36">
+        <div className="relative ml-auto xl:pt-36">
           <div className="md:flex md:items-center md:w-[100%]">
             <div className="text-center sm:px-12 md:w-2/5 md:px-0 md:text-left">
               <h1 className="text-5xl font-black dark:text-white md:text-4xl xl:text-5xl">
