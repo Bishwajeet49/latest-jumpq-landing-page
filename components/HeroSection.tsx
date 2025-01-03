@@ -24,8 +24,8 @@ export default function HeroSection() {
       <Container>
         <div className="relative ml-auto pt-40 xl:pt-36">
           <div className="gap-12 md:flex md:items-center md:w-[100%]">
-            <div className="text-center sm:px-12 md:w-2/3 md:px-0 md:text-left lg:w-[50%]">
-              <h1 className="text-5xl font-black dark:text-white md:text-5xl xl:text-5xl">
+            <div className="text-center sm:px-12 md:w-2/5 md:px-0 md:text-left">
+              <h1 className="text-5xl font-black dark:text-white md:text-4xl xl:text-5xl">
                 Helping Sales Team <br />
                 & Agents <span></span> <span className="text-primary">Excel at Scale </span>
               </h1>
@@ -49,7 +49,7 @@ export default function HeroSection() {
               <div className="ml-0 md:-mr-72 lg:mr-0">
                 <video
                   ref={videoRef}
-                  className="w-full h-full"
+                  className="w-full h-auto"
                   autoPlay
                   muted
                   loop
