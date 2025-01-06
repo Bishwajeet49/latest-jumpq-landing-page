@@ -4,8 +4,8 @@ import Image from "next/image.js";
 export default function Products() {
     return (
         <div className="my-20 md:my-32">
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white md:w-2/3 md:text-3xl lg:text-4xl">Proven Results</h3>
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white md:w-2/3 md:text-3xl lg:text-4xl">Customize your Proven Results</h3>
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white md:w-2/3 md:text-3xl text-orange lg:text-4xl">Proven Results</h3>
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white md:w-2/3 md:text-3xl text-orange lg:text-4xl">Customize your Proven Results</h3>
             <div className="relative mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 <Card>
                     <Image className="w-10" src="/images/icons/Efficiency.svg" alt="safety icon illustration" height="512" width="512" />

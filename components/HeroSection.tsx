@@ -13,18 +13,19 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <div className="relative overflow-hidden dark:bg-darker lg:overflow-auto" id="home">
+    <div className="w-full h-screen relative overflow-hidden dark:bg-darker lg:overflow-auto flex items-start pt-10" id="home">
       <div className="absolute inset-x-0 top-32 lg:hidden">
         <div aria-hidden="true" className="grid grid-cols-2 -space-x-52 opacity-50 dark:opacity-60 2xl:mx-auto 2xl:max-w-6xl">
           <div className="h-60 bg-gradient-to-br from-primary to-purple-400 blur-3xl dark:from-blue-700"></div>
           <div className="h-72 rounded-full bg-gradient-to-r from-cyan-400 to-sky-300 blur-3xl dark:from-transparent dark:to-indigo-600"></div>
         </div>
       </div>
+      
       <Container>
-        <div className="relative ml-auto pt-40 xl:pt-36">
-          <div className="gap-12 md:flex md:items-center">
-            <div className="text-center sm:px-12 md:w-2/3 md:px-0 md:text-left lg:w-[50%]">
-              <h1 className="text-5xl font-black dark:text-white md:text-5xl xl:text-5xl">
+        <div className="relative ml-auto xl:pt-36">
+          <div className="md:flex md:items-center md:w-[100%]">
+            <div className="text-center sm:px-12 md:w-2/5 md:px-0 md:text-left">
+              <h1 className="text-5xl font-black dark:text-white md:text-4xl xl:text-5xl">
                 Helping Sales Team <br />
                 & Agents <span></span> <span className="text-primary">Excel at Scale </span>
               </h1>
@@ -43,6 +44,7 @@ export default function HeroSection() {
                 </div>
               </div>
             </div>
+            
             <div className="relative mt-20 md:mt-0 md:w-2/5 lg:w-3/5">
               <div className="ml-0 md:-mr-72 lg:mr-0">
                 <video
