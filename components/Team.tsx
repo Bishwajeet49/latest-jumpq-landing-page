@@ -1,6 +1,8 @@
 import TeamCard from "./TeamCard";
 import Container from "./Container";
 import { SiFacebook, SiLinkedin, SiX } from '@icons-pack/react-simple-icons';
+import Link from "next/link";
+import Image from "next/image";
 
 
 
@@ -121,15 +123,40 @@ export default function Team() {
                                                                 {data.deg}
                                                             </p>
                                                             <div className=' flex items-center justify-center gap-3'>
-                                                                <a href={data.linkedin} target="_blank" rel="noopener noreferrer">
-                                                                    <SiX size={16} />
-                                                                </a>
-                                                                {/* <a href='#'>
-                                                            <SiFacebook />
-                                                        </a> */}
-                                                                <a href={data.twitter} target="_blank" rel="noopener noreferrer">
-                                                                    <SiLinkedin size={16} />
-                                                                </a>
+                                                                <Link href={data.linkedin} legacyBehavior>
+                                                                    <a
+                                                                        className="duration-300 hover:text-gray-600 dark:hover:text-white"
+                                                                        title="Twitter"
+                                                                        target="_blank"
+                                                                        rel="noopener noreferrer"
+                                                                        aria-label="Twitter"
+                                                                    >
+                                                                        <Image
+                                                                            width={36}
+                                                                            height={36}
+                                                                            className="m-auto h-5 w-5"
+                                                                            src="/images/X.png"
+                                                                            alt="Twitter logo"
+                                                                        />
+                                                                    </a>
+                                                                </Link>
+                                                                <Link href={data.twitter} passHref legacyBehavior>
+                                                                    <a
+                                                                        className="duration-300 hover:text-gray-600 dark:hover:text-white"
+                                                                        title="LinkedIn"
+                                                                        target="_blank"
+                                                                        rel="noopener noreferrer"
+                                                                        aria-label="LinkedIn"
+                                                                    >
+                                                                        <Image
+                                                                            width={36}
+                                                                            height={36}
+                                                                            className="m-auto w-5 h-5"
+                                                                            src="/images/Linkedin-Logo--Streamline-Logos-Block.png"
+                                                                            alt="LinkedIn logo"
+                                                                        />
+                                                                    </a>
+                                                                </Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -174,15 +201,43 @@ export default function Team() {
                                                                 {data.deg}
                                                             </p>
                                                             <div className='flex items-center justify-center gap-3'>
-                                                                <a href={data.linkedin}>
-                                                                    <SiX size={16} />
-                                                                </a>
+                                                                <Link href={data.linkedin} legacyBehavior>
+                                                                    <a
+                                                                        className="duration-300 hover:text-gray-600 dark:hover:text-white"
+                                                                        title="Twitter"
+                                                                        target="_blank"
+                                                                        rel="noopener noreferrer"
+                                                                        aria-label="Twitter"
+                                                                    >
+                                                                        <Image
+                                                                            width={36}
+                                                                            height={36}
+                                                                            className="m-auto h-5 w-5"
+                                                                            src="/images/X.png"
+                                                                            alt="Twitter logo"
+                                                                        />
+                                                                    </a>
+                                                                </Link>
                                                                 {/* <a href='#'>
                                                                     <SiFacebook />
                                                                 </a> */}
-                                                                <a href={data.twitter}>
-                                                                    <SiLinkedin size={16} />
-                                                                </a>
+                                                                <Link href={data.twitter} passHref legacyBehavior>
+                                                                    <a
+                                                                        className="duration-300 hover:text-gray-600 dark:hover:text-white"
+                                                                        title="LinkedIn"
+                                                                        target="_blank"
+                                                                        rel="noopener noreferrer"
+                                                                        aria-label="LinkedIn"
+                                                                    >
+                                                                        <Image
+                                                                            width={36}
+                                                                            height={36}
+                                                                            className="m-auto w-5 h-5"
+                                                                            src="/images/Linkedin-Logo--Streamline-Logos-Block.png"
+                                                                            alt="LinkedIn logo"
+                                                                        />
+                                                                    </a>
+                                                                </Link>
                                                             </div>
                                                         </div>
                                                     </div>
